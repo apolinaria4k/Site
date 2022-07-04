@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+*, 
+:before,
+:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.main1{
+    background-color: rgb(55, 13, 68);
+}
+
+.main2{
+    box-sizing: border-box;
+    width: 60%;
+    margin-inline: 20%;
+} 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.but{
+    color: #e8a6e1 ;
+    box-sizing: content-box;
+    width: fit-content;
+    padding-top: 2%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.three{
+    font-size: 350%;
+    font-weight: 900;
+    padding-top: 0%;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #e8a6e1;
+}
+
+.f1{
+    margin-bottom: 3%;
+    color: #e8a6e1;
+    font-size: 200%;
+}
+
+.f2{
+    margin-bottom: 3%;
+    color: #e8a6e1;
+    font-size: 120%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    padding-top: 7%;
+    max-width: 1000px;
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -5%;
+    padding-inline: 3%;
+    padding-block: 1%;
+    color: #e8a6e1;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 50px 50px 50px 50px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: -20%;
+  }
+  .prev {
+    left: -20%;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #e8a6e1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.dots{
+    margin-bottom: 10%;
+}
+  .active, .dot:hover {
+    background-color: #d627c5;
+  }
+  
+
+
+.main3{
+    box-sizing: border-box;
+    width: 80%;
+    margin-inline: 10%;
+}
+
+.text1{
+    text-align: center;
+    padding-block: 2%;
+    font-size: 120%;
+    color: #e8a6e1;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 4px solid #e8a6e1;
+    border-top: 4px solid #e8a6e1;
+}
+
+.ss{
+    color:rgb(32, 144, 223);
+}
+
+.girl{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.img{
+    border-radius: 50%;
+}
+.adm{
+    margin-left: 3%;
+}
+
+.adm2{
+    position: absolute;
+    font-size: 130%;
+    color:#e8a6e1;
+    top: 205%;
+}
+
+.adm3{
+    position: absolute;
+    font-size: 90%;
+    color:#e8a6e1;
+    top: 209%;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between;
+}
+
+.society{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: #e8a6e1;
+}
+.society2{
+    padding-inline: 1em;
+}
+.telega{
+    margin-top: 0.4em;
+}
+.utube{
+    margin-top: 0.1em;
+}
+
+.text2{
+    text-align: center;
+    color: #e8a6e1;
+    
+}
+.wait{
+    margin-top: 2%;
+    font-size: 150%;
+    font-weight: bold;
+    color: #e8a6e1;
+}
+
+
+
+/* ДЛЯ ABOUT */
+
+.little{
+    margin-top: 5%;
+    color: #e8a6e1;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.little2{
+    text-align: center;
+    font-size: 130%;
+    color:#e8a6e1;
+}
+
+.start{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.main33{
+    background-color: #e8a6e1;
+    color: rgb(55, 13, 68)
+}
+
+.rules{
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.rules2{
+    font-size: 150%;
+    padding-inline: 7%;
+    padding-bottom: 5%;
+}
+
+/* ДЛЯ PRICE */
+.urokPrice{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.urok{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+}
+.urok1{
+    font-size: 220%;
+    color:#e8a6e1;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.urok23{
+    display: flex;
+}
+.urok2{
+    font-size: 150%;
+    color:#e8a6e1;
+}
+
+.urok3{
+    position: relative;
+    left: 15%;
+    font-weight: 900;
+    font-size: 120%;
+    box-sizing: border-box;
+    width: fit-content;
+    padding-inline: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    color: rgb(55, 13, 68);
+    background-color: #e8a6e1;
+    border-radius: 50px;
+}
+.urok3>a{
+    color: rgb(55, 13, 68);
+}
+.urok3:hover{
+    background-color: #e8a6e1;;
+}
+
+.price{
+    text-align: center;
+}
+
+.price2{
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.price2>div {
+    margin: 0.5em;
+    width: 30%;
+    text-align: center;
+    font-size: 130%;
+    padding: 3%;
+    background-color: #e8a6e1;
+    border-radius: 30px;
+}
+.txt{
+    color: #e8a6e1;
+    background-color: rgb(55, 13, 68);
+    border-radius: 30px;
+}
+
+.rub{
+    font-size: 170%;
+    font-weight: 900;
+    color: rgb(55, 13, 68);
+    margin-bottom: 0.2em;
+}
+
+/* для формы */
+
+.form-wrap {
+    position: relative;
+    left: 13%;
+    width: 100%;
+    
+}
+  
+  form {
+    background: #e8a6e1;
+    float: left;
+    width: calc(100% - 240px);
+    padding: 30px;
+    color: rgb(55, 13, 68); 
+    border-radius: 20px;
+    margin-bottom: 5%;
+  }
+  .form-wrap:after, form div:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  form div {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  /********************** стилизация элементов формы **********************/
+  label {
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  input[type="text"], input[type="tel"], input[type="email"] {
+    border-width: 0;
+    outline: none;
+    margin: 0;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: #bc5cb2;
+  }
+  input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+  }
+
+  button {
+    padding: 10px 0;
+    border-width: 0;
+    display: block;
+    width: 50%;
+    margin: 25px auto 0;
+    background: rgb(55, 13, 68);
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  button:hover{
+      color: rgb(55, 13, 68);
+      background-color: #e8a6e1;
+  }
+  
+  /********************** добавляем форме адаптивность **********************/
+  @media (max-width: 600px) {
+    .form-wrap {margin: 20px auto; max-width: 550px; width:100%;}
+    .profile, form {float: none; width: 100%;}
+    h1 {margin-top: auto; padding-bottom: 50px;}
+    form {border-radius: 0 0 20px 20px;}
+  }
+
+
+/* ДЛЯ TEAM */
+
+.lol1>p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 200%;
+    color:#e8a6e1;
+}
+
+
+.first{
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.first>div {
+    margin: 0.5em;
+    width: 30%;
+    text-align: center;
+    background-color: #e8a6e1;
+    padding: 2%;
+    border: 6px solid #e8a6e1;
+    border-radius: 30px;
+}
+
+.name{
+    font-size: 150%;
+    font-weight: 900;
+    color: rgb(55, 13, 68);
+}
+.vacancy{
+    font-size: 100%;
+    font-weight: 300;
+    color: rgb(55, 13, 68);
+    border-radius: 30px;
+}
+
+/* ДЛЯ SCEDULE */
+.lol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.card{
+    padding: 0.8em;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: #e8a6e1;
+    border-radius: 30px;
+}
+
+.day{
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    
+}
+.day>span{
+    color: rgb(55, 13, 68);
+    text-transform: uppercase;
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    font-size: 1em;
+    color: #e8a6e1;
+    margin-bottom: 0.7em;
+    background-color: rgb(55, 13, 68);
+    border-radius: 20px;
+}
+.team:last-child{
+    margin-bottom: 0;
+}
+.team>div>span{
+    padding: 0.3em;
+    background-color: #e8a6e1;
+    border-radius: 20px;
+    color: rgb(55, 13, 68);
+}
